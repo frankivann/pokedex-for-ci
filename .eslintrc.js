@@ -24,10 +24,7 @@ module.exports = {
       "error",
         2
       ],
-    "linebreak-style": [
-      "error",
-      "windows"
-    ],
+    "linebreak-style": 0,
     "quotes": [
       "error",
       "single"
@@ -45,6 +42,6 @@ module.exports = {
       "error", { "before": true, "after": true }
     ],
     "no-console": "warn",
-    "react/prop-types": 0
+    "react/prop-types": 0,
   }
 }
