@@ -1,47 +1,50 @@
 module.exports = {
-  "env": {
-    "browser": true,
-    "es6": true,
-    "jest/globals": true,
-    "node": true
+  'env': {
+    'browser': true,
+    'es6': true,
+    'jest/globals': true,
+    'node': true
   },
-  "extends": [
-    "eslint:recommended",
-    "plugin:react/recommended"
+  'extends': [
+    'eslint:recommended',
+    'plugin:react/recommended'
   ],
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+  'parserOptions': {
+    'ecmaFeatures': {
+      'jsx': true
     },
-    "ecmaVersion": 2018,
-    "sourceType": "module"
+    'ecmaVersion': 2018,
+    'sourceType': 'module'
   },
-  "plugins": [
-    "react", "jest"
+  'plugins': [
+    'react', 'jest'
   ],
-  "rules": {
-    "indent": [
-      "error",
-        2
-      ],
-    "linebreak-style": 0,
-    "quotes": [
-      "error",
-      "single"
+  'rules': {
+    'indent': [
+      'error',
+      2
     ],
-    "semi": [
-      "error",
-      "never"
+    'linebreak-style': [
+      'error',
+      'windows'
     ],
-    "eqeqeq": "error",
-    "no-trailing-spaces": "error",
-    "object-curly-spacing": [
-      "error", "always"
+    'quotes': [
+      'error',
+      'single'
     ],
-    "arrow-spacing": [
-      "error", { "before": true, "after": true }
+    'semi': [
+      'error',
+      'never'
     ],
-    "no-console": "warn",
-    "react/prop-types": 0,
+    'eqeqeq': 'error',
+    'no-trailing-spaces': 'error',
+    'object-curly-spacing': [
+      'error', 'always'
+    ],
+    'arrow-spacing': [
+      'error', { 'before': true, 'after': true }
+    ],
+    'no-console': 'warn',
+    'react/prop-types': 0,
   }
 }
