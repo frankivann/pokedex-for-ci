@@ -8,6 +8,7 @@ const PORT = process.env.PORT || 5000
 app.get('/health', (req, res) => {
   res.send('ok')
 })
+const x = ''
 
 app.get('/version', (req, res) => {
   res.send(version)
